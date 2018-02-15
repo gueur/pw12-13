@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Formularios</title>
+</head>
+<body>
+	Formulario: Contenedor que sirve para encapsular metodos de entrada de datos del usuario. <br>
+	El formulario se puede: <br>
+	<ol>
+		<li>Capturar datos</li>
+		<li>Validar lo que se ingresa</li>
+		<li>Enviar a proceso</li>
+		<li>Reiniciar la captura</li>
+	</ol>
+	<form action="procesa.html"  method="POST">
+		<input name="txtNumeroControl" type="text" placeholder="N&uacute;mero de control" required autofocus>
+		<input name="txtClave" type="password" placeholder="la contra" required>
+		<input name="txtPromedio" type="number" placeholder="promedio">
+		<input name="txtFecha" type="date">
+		<input name="txtColor" type="color">
+		<input name="txtCorreo" type="email">
+		<input name="txtBuscar" type="search">
+		<input type="submit" value="Enviar"> <!-- dispara la accion del form -->
+		<input type="button" value="Enviar"> <!-- simple boton -->
+		<input type="button" name="" value="Enviar">
+
+	</form>
+
+</body>
+</html>
